@@ -1,0 +1,52 @@
+.custom-calendar {
+  .rmdp-rtl {
+    width: 100% !important;
+  }
+  .rmdp-top-class {
+    width: 100% !important;
+  }
+
+  @media (max-height: 450px), (max-width: 450px) {
+    .rmdp-header,
+    .rmdp-month-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff !important;
+    }
+  }
+  .rmdp-today {
+    background-color: #7ea6f0;
+  }
+  .rmdp-day.rmdp-today span{
+    background-color: unset;
+  }
+}
+.rmdp-wrapper {
+  width: 100%;
+}
+.rmdp-header div {
+  width: 70%;
+  margin: 0 auto;
+}
+.rmdp-day-picker div {
+  width: 100% !important;
+}
+.rmdp-day span {
+  border-radius: 0;
+}
+.rmdp-day {
+  min-height: 50px;
+}
+
+.custom-day-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .custom-day {
+    display: block !important;
+    margin: 0;
+  }
+  .custom-day-price:hover {
+    color: #fff;
+  }
+}
